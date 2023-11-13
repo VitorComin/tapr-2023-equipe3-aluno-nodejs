@@ -1,0 +1,29 @@
+## GET
+
+#GET http://localhost:3000/api/v1/aluno
+
+## POST
+
+#POST http://localhost:3000/api/v1/aluno
+#Content-Type: application/json
+
+#{
+#  "matricula": "100",
+#  "nome": "Vitor",
+#  "curso": "Sistemas de Informação",
+#  "ativo": true
+#}
+
+## PUT do que postei em cima
+
+#PUT http://localhost:3000/api/v1/aluno/5cc0c2e3-f938-4bce-9a90-f8759775b5e7
+#Content-Type: application/json
+
+#{
+#  "ativo": false
+#}
+
+## DELETE
+
+DELETE  http://localhost:3000/api/v1/aluno/5cc0c2e3-f938-4bce-9a90-f8759775b5e7
+Content-Type: application/json
