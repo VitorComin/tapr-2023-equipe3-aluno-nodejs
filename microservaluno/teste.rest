@@ -1,6 +1,6 @@
 ## GET
 
-#GET http://localhost:3000/api/v1/aluno
+GET http://localhost:3000/api/v1/aluno
 
 ## POST
 
@@ -16,14 +16,14 @@
 
 ## PUT do que postei em cima
 
-#PUT http://localhost:3000/api/v1/aluno/5cc0c2e3-f938-4bce-9a90-f8759775b5e7
+#PUT http://localhost:3000/api/v1/aluno/288d51af-3928-4a72-856f-991f4942701e
 #Content-Type: application/json
 
 #{
-#  "ativo": false
+#  "nome": "Vitor Gabriel"
 #}
 
-## DELETE
+## DELETE no "Vitor Gabriel"
 
-DELETE  http://localhost:3000/api/v1/aluno/5cc0c2e3-f938-4bce-9a90-f8759775b5e7
-Content-Type: application/json
+#DELETE  http://localhost:3000/api/v1/aluno/288d51af-3928-4a72-856f-991f4942701e
+#Content-Type: application/json

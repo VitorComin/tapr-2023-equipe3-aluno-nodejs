@@ -47,8 +47,10 @@ class AlunoService{
 
         const alunoAntigo = listaAluno[0];
 
+        alunoAntigo.matricula = aluno.matricula;
         alunoAntigo.nome = aluno.nome;
-        alunoAntigo.materia = aluno.curso;
+        alunoAntigo.curso = aluno.curso;
+        alunoAntigo.ativo = aluno.ativo;
         await this.container.items.upsert(alunoAntigo)
 
         return Promise.resolve(alunoAntigo);
@@ -66,7 +68,7 @@ class AlunoService{
             = await this.container.items.query(querySpec).fetchAll();
             
         for (const aluno of listaAluno) {
-            await this.container.item(aluno.id, aluno.id).delete();
+            await this.container.item(aluno.id, aluno.matricula).delete();
         }
 
         return Promise.resolve(id);
