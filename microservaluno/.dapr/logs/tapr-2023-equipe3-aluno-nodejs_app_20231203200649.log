@@ -1,0 +1,13 @@
+== APP - tapr-2023-equipe3-aluno-nodejs == 
+== APP - tapr-2023-equipe3-aluno-nodejs == > microservaluno@1.0.0 dev
+== APP - tapr-2023-equipe3-aluno-nodejs == > nodemon server/index.ts | pino-pretty
+== APP - tapr-2023-equipe3-aluno-nodejs == 
+== APP - tapr-2023-equipe3-aluno-nodejs == [nodemon] 2.0.22
+== APP - tapr-2023-equipe3-aluno-nodejs == [nodemon] to restart at any time, enter `rs`
+== APP - tapr-2023-equipe3-aluno-nodejs == [nodemon] watching path(s): server/**/* .env
+== APP - tapr-2023-equipe3-aluno-nodejs == [nodemon] watching extensions: ts,js,json,yaml,yml
+== APP - tapr-2023-equipe3-aluno-nodejs == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe3-aluno-nodejs == [1701634014500] INFO (tapr-2023-equipe3-aluno-nodejs/14214 on codespaces-8c9c5c): up and running in development @: codespaces-8c9c5c on port: 3000}
+== APP - tapr-2023-equipe3-aluno-nodejs == 2023-12-03T20:07:48.603Z INFO [HTTPClient, HTTPClient] Sidecar Started
+
+termination signal received: shutting down

@@ -1,0 +1,38 @@
+Starting Dapr with id tapr-2023-equipe3-aluno-nodejs. HTTP Port: 34929. gRPC Port: 35467
+Updating metadata for cliPID: 32690
+time="2023-12-03T19:14:10.653880223Z" level=info msg="Starting Dapr Runtime -- version 1.12.2 -- commit f954254ed520409602024ea6d507d0405afa1f07" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:10.653940535Z" level=info msg="Log level set to: info" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:10.654519454Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime.security type=log ver=1.12.2
+time="2023-12-03T19:14:10.665719282Z" level=info msg="metrics server started on :41455/" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:10.666332545Z" level=info msg="standalone mode configured" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:10.666372289Z" level=info msg="app id: tapr-2023-equipe3-aluno-nodejs" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:10.666433133Z" level=info msg="Dapr trace sampler initialized: DaprTraceSampler(P=1.000000)" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:10.677670408Z" level=info msg="local service entry announced: tapr-2023-equipe3-aluno-nodejs -> 172.16.5.4:34267" app_id=tapr-2023-equipe3-aluno-nodejs component="mdns (nameResolution/v1)" instance=codespaces-8c9c5c scope=dapr.contrib type=log ver=1.12.2
+time="2023-12-03T19:14:10.678648201Z" level=info msg="Initialized name resolution to mdns" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:10.678771852Z" level=info msg="Loading components…" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:10.68393695Z" level=info msg="Waiting for all outstanding components to be processed…" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:13.68953923Z" level=info msg="Component loaded: servicebus-pubsub (pubsub.azure.servicebus.topics/v1)" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:13.689660396Z" level=info msg="All outstanding components processed" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:13.689712222Z" level=info msg="Loading endpoints…" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:13.689981995Z" level=info msg="Waiting for all outstanding http endpoints to be processed…" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:13.690029664Z" level=info msg="All outstanding http endpoints processed" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:13.690155368Z" level=info msg="gRPC server listening on TCP address: :35467" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-03T19:14:13.690199701Z" level=info msg="Enabled gRPC tracing middleware" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-03T19:14:13.690225579Z" level=info msg="Enabled gRPC metrics middleware" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-03T19:14:13.690341485Z" level=info msg="Registering workflow engine for gRPC endpoint: [::]:35467" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-03T19:14:13.690480705Z" level=info msg="API gRPC server is running on port 35467" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:13.691580615Z" level=info msg="Enabled max body size HTTP middleware with size 4 MB" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-03T19:14:13.691645697Z" level=info msg="Enabled tracing HTTP middleware" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-03T19:14:13.691676254Z" level=info msg="Enabled metrics HTTP middleware" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-03T19:14:13.692054388Z" level=info msg="HTTP server listening on TCP address: :34929" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-03T19:14:13.692109822Z" level=info msg="HTTP server is running on port 34929" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:13.692186665Z" level=info msg="The request body size parameter is: 4" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:13.692252317Z" level=info msg="gRPC server listening on TCP address: :34267" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-12-03T19:14:13.692293003Z" level=info msg="Enabled gRPC tracing middleware" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-12-03T19:14:13.692318941Z" level=info msg="Enabled gRPC metrics middleware" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-12-03T19:14:13.692376809Z" level=info msg="Internal gRPC server is running on port 34267" app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-03T19:14:13.692507773Z" level=info msg="application protocol: http. waiting on port 3000.  This will block until the app is listening on that port." app_id=tapr-2023-equipe3-aluno-nodejs instance=codespaces-8c9c5c scope=dapr.runtime type=log ver=1.12.2
+Updating metadata for app command: npm run dev
+Updating metadata for appPID: 32780
+You're up and running! Dapr logs will appear here.
+

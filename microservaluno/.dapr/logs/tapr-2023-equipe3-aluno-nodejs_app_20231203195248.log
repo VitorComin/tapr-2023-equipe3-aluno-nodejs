@@ -1,0 +1,38 @@
+== APP - tapr-2023-equipe3-aluno-nodejs == 
+== APP - tapr-2023-equipe3-aluno-nodejs == > microservaluno@1.0.0 dev
+== APP - tapr-2023-equipe3-aluno-nodejs == > nodemon server/index.ts | pino-pretty
+== APP - tapr-2023-equipe3-aluno-nodejs == 
+== APP - tapr-2023-equipe3-aluno-nodejs == [nodemon] 2.0.22
+== APP - tapr-2023-equipe3-aluno-nodejs == [nodemon] to restart at any time, enter `rs`
+== APP - tapr-2023-equipe3-aluno-nodejs == [nodemon] watching path(s): server/**/* .env
+== APP - tapr-2023-equipe3-aluno-nodejs == [nodemon] watching extensions: ts,js,json,yaml,yml
+== APP - tapr-2023-equipe3-aluno-nodejs == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe3-aluno-nodejs == Error: Cannot find module 'server/common/daprclient'
+== APP - tapr-2023-equipe3-aluno-nodejs == Require stack:
+== APP - tapr-2023-equipe3-aluno-nodejs == - /workspaces/tapr-2023-equipe3-aluno-nodejs/microservaluno/server/api/services/aluno.service.ts
+== APP - tapr-2023-equipe3-aluno-nodejs == - /workspaces/tapr-2023-equipe3-aluno-nodejs/microservaluno/server/api/controllers/aluno/alunocontroller.ts
+== APP - tapr-2023-equipe3-aluno-nodejs == - /workspaces/tapr-2023-equipe3-aluno-nodejs/microservaluno/server/api/controllers/aluno/router.ts
+== APP - tapr-2023-equipe3-aluno-nodejs == - /workspaces/tapr-2023-equipe3-aluno-nodejs/microservaluno/server/routes.ts
+== APP - tapr-2023-equipe3-aluno-nodejs == - /workspaces/tapr-2023-equipe3-aluno-nodejs/microservaluno/server/index.ts
+== APP - tapr-2023-equipe3-aluno-nodejs ==     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+== APP - tapr-2023-equipe3-aluno-nodejs ==     at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/workspaces/tapr-2023-equipe3-aluno-nodejs/microservaluno/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+== APP - tapr-2023-equipe3-aluno-nodejs ==     at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+== APP - tapr-2023-equipe3-aluno-nodejs ==     at Module.require (node:internal/modules/cjs/loader:1115:19)
+== APP - tapr-2023-equipe3-aluno-nodejs ==     at require (node:internal/modules/helpers:130:18)
+== APP - tapr-2023-equipe3-aluno-nodejs ==     at Object.<anonymous> (/workspaces/tapr-2023-equipe3-aluno-nodejs/microservaluno/server/api/services/aluno.service.ts:5:1)
+== APP - tapr-2023-equipe3-aluno-nodejs ==     at Module._compile (node:internal/modules/cjs/loader:1241:14)
+== APP - tapr-2023-equipe3-aluno-nodejs ==     at Module.m._compile (/workspaces/tapr-2023-equipe3-aluno-nodejs/microservaluno/node_modules/ts-node/src/index.ts:1618:23)
+== APP - tapr-2023-equipe3-aluno-nodejs ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe3-aluno-nodejs ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe3-aluno-nodejs/microservaluno/node_modules/ts-node/src/index.ts:1621:12) {
+== APP - tapr-2023-equipe3-aluno-nodejs ==   code: 'MODULE_NOT_FOUND',
+== APP - tapr-2023-equipe3-aluno-nodejs ==   requireStack: [
+== APP - tapr-2023-equipe3-aluno-nodejs ==     '/workspaces/tapr-2023-equipe3-aluno-nodejs/microservaluno/server/api/services/aluno.service.ts',
+== APP - tapr-2023-equipe3-aluno-nodejs ==     '/workspaces/tapr-2023-equipe3-aluno-nodejs/microservaluno/server/api/controllers/aluno/alunocontroller.ts',
+== APP - tapr-2023-equipe3-aluno-nodejs ==     '/workspaces/tapr-2023-equipe3-aluno-nodejs/microservaluno/server/api/controllers/aluno/router.ts',
+== APP - tapr-2023-equipe3-aluno-nodejs ==     '/workspaces/tapr-2023-equipe3-aluno-nodejs/microservaluno/server/routes.ts',
+== APP - tapr-2023-equipe3-aluno-nodejs ==     '/workspaces/tapr-2023-equipe3-aluno-nodejs/microservaluno/server/index.ts'
+== APP - tapr-2023-equipe3-aluno-nodejs ==   ]
+== APP - tapr-2023-equipe3-aluno-nodejs == }
+== APP - tapr-2023-equipe3-aluno-nodejs == [nodemon] app crashed - waiting for file changes before starting...
+
+termination signal received: shutting down

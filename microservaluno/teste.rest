@@ -1,18 +1,18 @@
 ## GET
 
-GET http://localhost:3000/api/v1/aluno
+# GET http://localhost:3000/api/v1/aluno
 
 ## POST
 
-#POST http://localhost:3000/api/v1/aluno
-#Content-Type: application/json
+POST http://localhost:3000/api/v1/aluno
+Content-Type: application/json
 
-#{
-#  "matricula": "100",
-#  "nome": "Vitor",
-#  "curso": "Sistemas de Informação",
-#  "ativo": true
-#}
+{
+ "matricula": "102",
+ "nome": "Bruna",
+ "curso": "Sistemas de Informação",
+ "ativo": true
+}
 
 ## PUT do que postei em cima
 
