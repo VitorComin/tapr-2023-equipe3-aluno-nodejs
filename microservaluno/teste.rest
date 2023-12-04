@@ -8,8 +8,8 @@ POST http://localhost:3000/api/v1/aluno
 Content-Type: application/json
 
 {
- "matricula": "102",
- "nome": "Bruna",
+ "matricula": "103",
+ "nome": "Mateus",
  "curso": "Sistemas de Informação",
  "ativo": true
 }
