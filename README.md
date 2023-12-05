@@ -1,5 +1,7 @@
 # tapr-2023-equipe3-aluno-nodejs
 
+arquivo TEST.REST dentro da pasta microservaluno. Testes feitos, funcionando e chegando no service bus do azure.
+
 Instruções:
 - Individual
 
